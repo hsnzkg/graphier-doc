@@ -1,0 +1,176 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <title>✔️ Creating Player Prefs Example Graph | Graphier </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="✔️ Creating Player Prefs Example Graph | Graphier ">
+      
+      
+      <link rel="icon" href="../images/32-32-gp.png">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/hsnzkg/graphier-docfx/blob/main/manual/playerprefs-example.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/32-32-gp.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+
+<head>
+  <style>
+  .explanation-text 
+  {
+    border: 2px solid #1a1a1a;
+    padding: 20px 10px;
+    margin: 10px;
+    border-radius : 15px;
+    max-width : 800px;
+  }
+  </style>
+  <link rel="stylesheet" href="../styles/main.css">
+</head>
+<h1 id="-creating-player-prefs-example-graph">✔️ Creating Player Prefs Example Graph</h1>
+<div class="explanation-text">
+First open the <strong>Contextual Menu</strong> by right clicking on an empty spot in the graph.
+And from there open the search window by clicking on the <strong>Create Node</strong>  tab.
+</div>
+<img src="../images/creating-playerprefs-graph/step-1.png" alt="Editor Location" class="rounded-image" width="1000" height="800">
+<div class="explanation-text">
+After the Search Window opens, click on the <strong>Data</strong> tab to open the nodes in the data tab.
+</div>
+<img src="../images/creating-playerprefs-graph/step-2.png" alt="Editor Location" class="rounded-image" width="1000" height="800">
+<div class="explanation-text">
+Then open input nodes by pressing the <strong>Input</strong> tab.
+</div>
+<img src="../images/creating-playerprefs-graph/step-3.png" alt="Editor Location" class="rounded-image" width="1000" height="800">
+<div class="explanation-text">
+In this tab you can create an empty Input or an Input node containing a sample json data.
+<div style="margin:15px;"></div>
+Go ahead and create an empty <strong>Input Node</strong>.
+</div>
+<img src="../images/creating-playerprefs-graph/step-4.png" alt="Editor Location" class="rounded-image" width="1000" height="800">
+<div class="explanation-text">
+Our empty Input Node has been created, now let's fill it.
+</div>
+<img src="../images/creating-playerprefs-graph/step-5.png" alt="Editor Location" class="rounded-image" width="1000" height="800">
+<div class="explanation-text">
+Now select the empty input node we created and press the Import PlayerPrefs button from the Node Toolbar.
+</div>
+<img src="../images/creating-playerprefs-graph/step-6.png" alt="Editor Location" class="rounded-image" width="1000" height="800">
+<div class="explanation-text">
+All values created in PlayerPrefs are passed into Input Node.
+<div style="margin:15px;"></div>
+Then select the <strong>Input Node</strong> we created and press the <strong>Create All Nodes</strong> button in the <strong>Node Toolbar</strong>.
+</div>
+<img src="../images/creating-playerprefs-graph/step-7.png" alt="Editor Location" class="rounded-image" width="1000" height="800">
+<div class="explanation-text">
+All nodes and property fields in our data have been created, now it's time to organize them.
+<div style="margin:15px;"></div>
+Select the <strong>Input Node</strong> we created again and press the <strong>Organize All Nodes</strong> button in the <strgon>Node Toolbar<strong>.
+</strong></strgon></div>
+<img src="../images/creating-playerprefs-graph/step-8.png" alt="Editor Location" class="rounded-image" width="1000" height="800">
+<div class="explanation-text">
+Now we have created and organized data.
+</div>
+<img src="../images/creating-playerprefs-graph/step-9.png" alt="Editor Location" class="rounded-image" width="1000" height="800">
+<div class="explanation-text">
+You can make the changes you want on the data, then select the <strong>Input Node</strong> and save all values to <strong>PlayerPrefs</strong> again by pressing the <strong>Save PlayerPrefs</strong> button in the <strong>Node Toolbar</strong>.
+</div>
+<img src="../images/creating-playerprefs-graph/step-10.png" alt="Editor Location" class="rounded-image" width="1000" height="800">
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/hsnzkg/graphier-docfx/blob/main/manual/playerprefs-example.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

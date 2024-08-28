@@ -1,0 +1,162 @@
+{
+  "README.html": {
+    "href": "README.html",
+    "title": "Graphier Documentation | Graphier",
+    "keywords": "Graphier Documentation To build and serve the documentation locally, use the following command: docfx docfx.json --serve"
+  },
+  "changelog/index.html": {
+    "href": "changelog/index.html",
+    "title": "🧱 Changelog | Graphier",
+    "keywords": "🧱 Changelog All notable changes to this project are documented in this file. [Under Development] Operation Nodes [1.0.0] Added Initial release with core features including editor, data visualization and editing."
+  },
+  "contact/contact.html": {
+    "href": "contact/contact.html",
+    "title": "📧 Contact | Graphier",
+    "keywords": "📧 Contact If you have any questions or want to get in touch, feel free to reach out through any of the following channels: Email: hsnzkg@gmail.com LinkedIn: LinkedIn Profile GitHub: GitHub Profile"
+  },
+  "elements/array-node.html": {
+    "href": "elements/array-node.html",
+    "title": "Array Node | Graphier",
+    "keywords": "Array Node Array node is a node that contains and manipulates JArray data. It contains an element called Property List View and handles the operations from there. 📝 Element List View Element List View parses the JArray object held by the Array node and displays the JToken objects in it in the list view. It creates a Property block for each JToken. There are two different types of Property blocks. 🗂️ JToken Property A visual element that contains 2 combinations of elements: Index Label & Value Input Field (Value Property) Index Label & Focus Button (Node Property) The index label is responsible for show the index of the JToken. The value input field is responsible for changing the value of the JToken. 🗂️ Value Property If the value in the JProperty is not JObject or JArray, but is an editable value type (float, string, int, etc.), it opens a value input field for this. The value is manipulated with this input field. If you want to convert the values ​​of JProperties to JObject or JArray type, it will be converted automatically when you write [], {} in the value input field. 🗂️ Node Property If the value in the JProperty is JObject or JArray, the value field is not created and since this property will contain children within itself, it is determined as the next node and only a focus button is placed next to the key field. If the focus button is pressed, it frames and select the next node and shows you where the node is. 🧮 Collection Size You can increase or decrease the number of elements in the data with the collection size section on the right of the list view. 🧮 Add Remove Buttons When you press the Add button, i.e. \" + \", a new data is created and added with a unique key and value. When you press the Remove button, i.e. \" - \", the selected elements are deleted from the data. 🧮 Index Change You can change the index in the data by dragging the selected element in the list view to the desired index with the CTRL + Left Mouse Button Drag combination."
+  },
+  "elements/getting-started.html": {
+    "href": "elements/getting-started.html",
+    "title": "📖 Getting Started | Graphier",
+    "keywords": "📖 Getting Started This part of the documentation shows the properties of the elements contained in the editor and simply their content."
+  },
+  "elements/gp-node.html": {
+    "href": "elements/gp-node.html",
+    "title": "🔲 Node | Graphier",
+    "keywords": "🔲 Node The elements at the base of all nodes are shown here. They simply have two elements in common. 🆔 Title It exists to distinguish and name nodes from each other. The data of this element is also reflected on the saved scriptable object. 🟢 State The node state element exists so that we can easily get information about the data that the node contains. 🔴 When red, it indicates that the data inside is null or null due to corrupt data that cannot be processed. ⚪ When white, it indicates that it contains data but the data is empty , an empty JObject or JArray object... 🟢 When green, it indicates that it contains data and is being processed properly."
+  },
+  "elements/graphier-contextual-menu.html": {
+    "href": "elements/graphier-contextual-menu.html",
+    "title": "🗔 Contextual Menu | Graphier",
+    "keywords": "🗔 Contextual Menu It is a menu window element that opens when you right-click on any point in the graph view. There are buttons for certain operations in this window. Create Node It is the operation button that creates a node creation request and then opens the search window. Clipboard Operations Cut | Copy | Paste | Duplicate These are operations that enable copying and pasting of elements within the graph. Delete It is the operation that enables the deletion of selected elements. Disconnect All This is the operation that deletes all connections of all selected nodes. Group Operations Group | Ungroup | Clear Group These are operations that allow the selected nodes to be included or removed from the group. Clear group is an operation that allows the nodes in the selected groups to be removed from the group. Collapse | Expand These are operations that change the visibility status of the selected nodes to minimized or maximized."
+  },
+  "elements/graphier-logger.html": {
+    "href": "elements/graphier-logger.html",
+    "title": "📃 Graph Logger | Graphier",
+    "keywords": "📃 Graph Logger These are the elements that enable the actions or warnings to be displayed on the screen within the editor. They are displayed on the left side of the editor, scrolling from top to bottom Red logs represent errors. White logs represent normal logs. Green logs represent successful points."
+  },
+  "elements/graphier-map.html": {
+    "href": "elements/graphier-map.html",
+    "title": "🗺️ Map | Graphier",
+    "keywords": "🗺️ Map It is a mini-map element that shows all nodes and groups in the editor. You can activate or deactivate the map from the map icon in the Editor Toolbar above. You can easily focus on the locations of the elements on the map by clicking on them with the left click. You can bring the map to the desired location and lock it with the anchor button on the map."
+  },
+  "elements/graphier-node-toolbar.html": {
+    "href": "elements/graphier-node-toolbar.html",
+    "title": "🔨 Node Toolbar | Graphier",
+    "keywords": "🔨 Node Toolbar It is a node-specific toolbar element that shows all node operations in it. You can bring the Node Toolbar to the desired location and lock it with the anchor button on the Node Toolbar. Creation Operations These are operations in which other nodes are automatically created or deleted according to the data in the nodes. ✔️ Creation There are two different operations in creation operations, both work with the same logic. When you select any node and click on Create Next Node on the toolbar, if there is a data that can be created in the node, for example JObject, JArray, these nodes are automatically created and connected to the selected node. When you select any node and click on Create All Nodes on the toolbar, Create Next Node runs and if it contains data that can be created in the next node, it is run recursively until this process is completed and all nodes are created. ❌ Deletion There are two different operations in deletion operations, both work with the same logic. When you select any node and click Destroy Next Node on the toolbar, if there is a suitable connection in the node, the next node is automatically deleted. When you select any node and click Destroy All Nodes on the toolbar, Destroy Next Node runs and if the next node contains suitable connections, it is run recursively until this process is completed and all connected nodes are deleted. 🗃️ Organization Operations There are two different operations in organization operations, both work with the same logic. When you select any node and click Organize Next Node on the toolbar, if there is a suitable connection in the node, the next node is automatically organized and its position is updated. When you select any node and click Organize All Nodes on the toolbar, Organize Next Node runs and if the next node contains suitable connections, it is run recursively until this process is completed and all connected are organized and their positions are updated. 🗄️ PlayerPrefs Operations PlayerPrefs operations include three different operations. If there is an input node among the selected nodes, you can use these three operations, they are three operations specific to the input node. ⬇️ Import The Import operation collects all PlayerPrefs data stored on the platform and manipulates it by placing it as raw text in the input field of the selected Input Nodes. 🗔 Windows All PlayerPref data is read and processed from the relevant Regedit block values. If the read values ​​match the company name and product name specific to the project, data is transmitted. 🐧 Linux All PlayerPref data is read and processed from the relevant Pref file. If the read values ​​match the company name and product name specific to the project, data is transmitted. 🍎 Mac OS All PlayerPref data is read and processed from the relevant Plist file. If the read values ​​match the company name and product name specific to the project, data is transmitted. 💾 Save The Save operation collects the JTokens with key value pair relationships in all selected Input Nodes, namely their JProperties. Then, if these JTokens contain data suitable for PlayerPrefs, namely if they are of type (string, float, int), they are categorized and recorded in the platform according to the keys they are determined. 🧹 Clear The Clear operation clears and saves all PlayerPrefs data on the platform."
+  },
+  "elements/graphier-search-bar.html": {
+    "href": "elements/graphier-search-bar.html",
+    "title": "🔍 Search Bar | Graphier",
+    "keywords": "🔍 Search Bar It is a search bar element that you can find in the upper right corner of the editor. According to the input you enter into it, it compares the data in the elements or by looking at the titles of the elements. If it finds a result, it selects the result and frames the camera towards that element."
+  },
+  "elements/graphier-search-window.html": {
+    "href": "elements/graphier-search-window.html",
+    "title": "🔍 Search Window | Graphier",
+    "keywords": "🔍 Search Window After clicking on the create node from the contextual menu, it is a search window that meets the node creation request. The elements that can be created are shown here. It currently has three categories. These are Data, Operation, Utility. Nodes that carry data on the Graph are included in Data. There is a Group element under Utility. Operation Nodes are still under development for some special operations between data with the next version. At the same time, if you create a connection from the ports of the nodes to any point in the graph and leave it empty, this window will open again and this time if you select the node as the example you want to create and if this starting node is of a type that can be connected to this node, an automatic connection will be created between them."
+  },
+  "elements/graphier-settings-editing.html": {
+    "href": "elements/graphier-settings-editing.html",
+    "title": "✍️ Editing | Graphier",
+    "keywords": "✍️ Editing This section contains the data editing settings found on the editor. Live Editing Settings If you want to see the effect instantly when you make any changes in the editing of input fields in the editor, you can open the live editing section of the sections you want. Otherwise, if live editing is off, the changes you make in the input fields will not be reflected instantly, whenever you click on a different point from the input field, it will be changed at that moment with the out of focus event and its effects will be applied. Points that support this option: Input Node Input Field List View Property Key Field Value Field Selector Node Input Field"
+  },
+  "elements/graphier-settings-performance.html": {
+    "href": "elements/graphier-settings-performance.html",
+    "title": "⚡ Performance | Graphier",
+    "keywords": "⚡ Performance This section contains the performance settings found on the editor. 💫 Animation Settings This section allows nodes to be animatedly moved while being organized, but therefore manipulates one tween for each node being moved. This can cause performance degradation if used for a large number of nodes. When you turn off animation, the organizing methods will instantly move nodes to where they need to be, cheaply."
+  },
+  "elements/graphier-settings-search.html": {
+    "href": "elements/graphier-settings-search.html",
+    "title": "🔍 Search | Graphier",
+    "keywords": "🔍 Search This section contains the search settings found on the editor. Search Settings This section allows you to select whether the content of searches should include input nodes when searching. Because if the data you are looking for exists in the nodes, it must also exist in the input node, so you will always get double results if the data you are looking for is found."
+  },
+  "elements/graphier-settings.html": {
+    "href": "elements/graphier-settings.html",
+    "title": "⚙️ Settings | Graphier",
+    "keywords": "⚙️ Settings The graph editor settings is also the element where custom settings are found. It currently consists of three different sections."
+  },
+  "elements/graphier-toolbar.html": {
+    "href": "elements/graphier-toolbar.html",
+    "title": "🔨 Toolbar | Graphier",
+    "keywords": "🔨 Toolbar It is a editor specific toolbar element that shows editor operations in it. 💾 Save Graph This is the operation button used to save the graph. 📂 Load Graph This is the operation button used to load the Graph via ScriptableObjects. 🧹 Clear Graph It is the operation button used to clear the current graph. 🗺️ Graph Map It is the operation button that is used to open and close the Map element in the Graph. 🔨 Node Toolbar It is the operation button that is used to open and close the Node Toolbar element in the Graph. ⚙️ Graph Settings It is the operation button that is used to open and close the Graph Settings element in the Graph."
+  },
+  "elements/group.html": {
+    "href": "elements/group.html",
+    "title": "Group | Graphier",
+    "keywords": "Group The Group element helps you to easily drag and categorize certain nodes under a single group. If you want to create it, you can click on group from the Search Window and create it. Or you can select the nodes you want to group and right click and use the group action from the Contextual Menu to group them under a group. They simply have one elements in common. 🆔 Title It exists to distinguish and name groups from each other. The data of this element is also reflected on the saved scriptable object. Manually Grouping Nodes After creating the Group element, drag and drop the nodes to the empty area within the group with Left Click and they will be included in the group element. Manually Removing Nodes from the Group After selecting the node within the group element, you can drag and drop the nodes from the group with the Shift + Left Click combination."
+  },
+  "elements/input-field.html": {
+    "href": "elements/input-field.html",
+    "title": "📝 Input Field | Graphier",
+    "keywords": "📝 Input Field Input fields are generally elements containing text created inside various objects such as Input Node - Input Field Object Node - Property Element (Key&Value) Section And other elements etc. All input fields are derived from GPTextField class and they all work in the same way. Warning Input fields have a general limitation regarding the number of characters, for a detailed explanation of this, please refer to the explanations in the section below. Character Count Limitation In general, the number of characters is important in the following sense. Unity uses a specific vertex and tris for each character when rendering text field objects. At the same time, a visual element, which is a restriction of unity, can contain a maximum of 65k vertex, which restricts us at this point. There is a way to overcome this. The maximum character limit that an Input Field, ie text field, can contain is 12k characters. But if you paste any text longer than 12k characters into this field, even if this text appears halfway in the render, we continue to keep the text you throw into it on the backside. In this way, even if the sample data you want to examine inside exceeds the 12k character limit, a certain part is rendered and the entire text is properly contained inside. If you want to retrieve and copy this text losslessly, when you select the entire text by mouse or with a key combination such as CTRL-A and copy or cut the whole text, you will obtain the text losslessly. In future versions, we will improve this more and eliminate this problem."
+  },
+  "elements/input-node.html": {
+    "href": "elements/input-node.html",
+    "title": "🔲 Input Node | Graphier",
+    "keywords": "🔲 Input Node Input node is generally the main data source of the graph. When the data to be given as input JSON is written to the input field in this node, the data is automatically processed and transferred to the nodes to which it is connected. 📝 Input Field It is the input field element where data is given as raw, i.e. text. 💾 Player Prefs There are some extra features specific to the node. The transfer and saving of PlayerPrefs data in Unity is also done through this node. After selecting any Input Node, you can use the Node Toolbar Import PlayerPrefs Save PlayerPrefs Clear PlayerPrefs methods for this node."
+  },
+  "elements/node.html": {
+    "href": "elements/node.html",
+    "title": "🔲 Node | Graphier",
+    "keywords": "🔲 Node Node element is simply the element responsible for data transfer in Graphier. It contains data, this data is transferred to other nodes through the ports that the node has. flowchart LR A(Node) -->|Data| B(Node) B -->|Data| C{Node} C -->|Data| D[Data 1] C -->|Data| E[Data 2]"
+  },
+  "elements/object-node.html": {
+    "href": "elements/object-node.html",
+    "title": "Object Node | Graphier",
+    "keywords": "Object Node Object node is a node that contains and manipulates JObject data. It contains an element called Property List View and handles the operations from there. 📝 Property List View Property List View parses the JObject object held by the Object node and displays the JProperty objects in it in the list view. It creates a Property block for each JProperty. There are two different types of Property blocks. 🗂️ JObject Property A visual element that contains 2 combinations of elements: Key Input Field & Value Input Field (Value Property) Key Input Field & Focus Button (Node Property) The key input field is responsible for changing the key of the JProperty. The value input field is responsible for changing the value of the JProperty. The focus button is responsible for frame and shows you where the related node. 🗂️ Value Property If the value in the JProperty is not JObject or JArray, but is an editable value type (float, string, int, etc.), it opens a value input field for this. The value is manipulated with this input field. If you want to convert the values ​​of JProperties to JObject or JArray type, it will be converted automatically when you write [], {} in the value input field. 🗂️ Node Property If the value in the JProperty is JObject or JArray, the value field is not created and since this property will contain children within itself, it is determined as the next node and only a focus button is placed next to the key field. If the focus button is pressed, it frames and select the next node and shows you where the node is. 🧮 Collection Size You can increase or decrease the number of elements in the data with the collection size section on the right of the list view. 🧮 Add Remove Buttons When you press the Add button, i.e. \" + \", a new data is created and added with a unique key and value. When you press the Remove button, i.e. \" - \", the selected elements are deleted from the data. 🧮 Index Change You can change the index in the data by dragging the selected element in the list view to the desired index with the CTRL + Left Mouse Button Drag combination."
+  },
+  "elements/selector-node.html": {
+    "href": "elements/selector-node.html",
+    "title": "Selector Node | Graphier",
+    "keywords": "Selector Node Selector node is the node we use to get a certain part of the data coming to it on the graph. 📝Input Field It is the input field element where selection data is given, i.e key names, element indexes. There are two different modes in it. { } Connected To A Object Node When connected to the Object node, the input field part inside it expects any key in the JObject as a parser. When we give this key, it forwards the data by taking only the JToken that has that key. [ ] Connected To A Array Node When connected to the Array node, the input field part inside it expects any index in the JArray as a parser. When we give this index, it forwards the data by taking only the JToken in its index."
+  },
+  "elements/value-node.html": {
+    "href": "elements/value-node.html",
+    "title": "Value Node | Graphier",
+    "keywords": "Value Node Value node is a node that does not have much functionality compared to other nodes and can only be used to show and transmit a certain JToken. Generally, if you want to take a certain JToken in the nodes with selector node and show it at a point, you can use this node. 📝 Input Field It is the input field element where data is shown and edited. The data type it expects is all types that are JValue, for example string, int, float, datetime etc."
+  },
+  "faq/faq.html": {
+    "href": "faq/faq.html",
+    "title": "❔ FAQ | Graphier",
+    "keywords": "❔ FAQ This section of the documentation presents Frequently Asked Questions and will be updated continuously as questions arise."
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "Home | Graphier",
+    "keywords": "Graphier : Visualize & Edit JSON Graphier is an editor tool for visualizing and editing JSON. Quick Start Notes : For example usage and details refer to Manual For descriptions of the elements available in Graphier refer to Elements"
+  },
+  "manual/creating-first-graph.html": {
+    "href": "manual/creating-first-graph.html",
+    "title": "✔️ Creating First Graph | Graphier",
+    "keywords": ".explanation-text { border: 2px solid #1a1a1a; padding: 20px 10px; margin: 10px; border-radius : 15px; max-width : 800px; } ✔️ Creating First Graph First open the Contextual Menu by right clicking on an empty spot in the graph. And from there open the search window by clicking on the Create Node tab. After the Search Window opens, click on the Data tab to open the nodes in the data tab. Then open input nodes by pressing the Input tab. In this tab you can create an empty Input or an Input node containing a sample json data. Go ahead and create an empty Input Node. Our empty Input Node has been created, now let's fill it. Paste any JSON data you want into the empty Input Node. Then select the Input Node we created and press the Create All Nodes button in the Node Toolbar. All nodes and property fields in our data have been created, now it's time to organize them. Then select the Input Node we created again and press the Organize All Nodes button in the Node Toolbar. Now all our data is created and organized. Now we can edit our data as we want from the fields created and get our outputs."
+  },
+  "manual/data-editor.html": {
+    "href": "manual/data-editor.html",
+    "title": "📜 Data Editor | Graphier",
+    "keywords": ".explanation-text { border: 2px solid #1a1a1a; padding: 20px 10px; margin: 10px; border-radius : 15px; max-width : 800px; } 📜 Data Editor Data Editor is an editor window that allows us to manually review the Graph files we have created, you can think of it as a custom inspector. To open the Data Editor, you can open the Data Editor either from the Tools/Graphier/DataEditor tab on Unity or by clicking on the Graph file you want to open and pressing the Open Data Editor button in the Inspector tab. Then the Data Editor will appear and you can see all the data in the graph and edit it at the same time. All Grahps created in the project are shown on the left side. To Locate it and understand which file it is in the project, you can Double Click on the Graph and Ping where it is in the project."
+  },
+  "manual/first-look.html": {
+    "href": "manual/first-look.html",
+    "title": "👀 First Look | Graphier",
+    "keywords": ".explanation-text { border: 2px solid #1a1a1a; padding: 20px 10px; margin: 10px; border-radius : 15px; max-width : 800px; } 👀 First Look To open the editor for the first time, you can open it by clicking Tools/Graphier/Editor from the Unity toolbar section above after importing Graphier into your project. After clicking the graphier editor window will be created"
+  },
+  "manual/getting-started.html": {
+    "href": "manual/getting-started.html",
+    "title": "📖 Getting Started | Graphier",
+    "keywords": "📖 Getting Started .explanation-text { border: 2px solid #1a1a1a; padding: 20px 10px; margin: 10px; border-radius : 15px; max-width : 800px; } In this section, we will simply examine how to use Graphier and what can be done in it with a few examples."
+  },
+  "manual/playerprefs-example.html": {
+    "href": "manual/playerprefs-example.html",
+    "title": "✔️ Creating Player Prefs Example Graph | Graphier",
+    "keywords": ".explanation-text { border: 2px solid #1a1a1a; padding: 20px 10px; margin: 10px; border-radius : 15px; max-width : 800px; } ✔️ Creating Player Prefs Example Graph First open the Contextual Menu by right clicking on an empty spot in the graph. And from there open the search window by clicking on the Create Node tab. After the Search Window opens, click on the Data tab to open the nodes in the data tab. Then open input nodes by pressing the Input tab. In this tab you can create an empty Input or an Input node containing a sample json data. Go ahead and create an empty Input Node. Our empty Input Node has been created, now let's fill it. Now select the empty input node we created and press the Import PlayerPrefs button from the Node Toolbar. All values created in PlayerPrefs are passed into Input Node. Then select the Input Node we created and press the Create All Nodes button in the Node Toolbar. All nodes and property fields in our data have been created, now it's time to organize them. Select the Input Node we created again and press the Organize All Nodes button in the Node Toolbar. Now we have created and organized data. You can make the changes you want on the data, then select the Input Node and save all values to PlayerPrefs again by pressing the Save PlayerPrefs button in the Node Toolbar."
+  },
+  "manual/save-load-graph.html": {
+    "href": "manual/save-load-graph.html",
+    "title": "✔️ Save & Load Graph | Graphier",
+    "keywords": ".explanation-text { border: 2px solid #1a1a1a; padding: 20px 10px; margin: 10px; border-radius : 15px; max-width : 800px; } ✔️ Save & Load Graph First open the Contextual Menu by right clicking on an empty spot in the graph. And from there open the search window by clicking on the Create Node tab. After the Search Window opens, click on the Data tab to open the nodes in the data tab. Then open input nodes by pressing the Input tab. In this tab you can create an empty Input or an Input node containing a sample json data. Go ahead and create an empty Input Node. Our empty Input Node has been created, now let's fill it. Paste any JSON data you want into the empty Input Node. Then select the Input Node we created and press the Create All Nodes button in the Node Toolbar. All nodes and property fields in our data have been created, now it's time to organize them. Then select the Input Node we created again and press the Organize All Nodes button in the Node Toolbar. Now all our data is created and organized. Now we can edit our data as we want from the fields created. Go ahead and change some fields Then press the existing Save Icon in the Editor Toolbar. File Explorer will then open you to the default save location save your graph in the desired location and with the desired name. Then a Scriptable Object - Graph file will be created in the directory and name you specify in the project. Then, to open the same graph at any time, open the Editor and press the File Import Icon in the Editor Toolbar. Select the Graph file you want to open Your old graph is now loaded and ready."
+  }
+}

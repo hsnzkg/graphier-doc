@@ -1,0 +1,1177 @@
+{
+  "source_base_path": "D:/Projects/GraphierDocfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "changelog/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "changelog/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/toc.html"
+        },
+        ".json": {
+          "relative_path": "changelog/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "contact/contact.md",
+      "output": {
+        ".html": {
+          "relative_path": "contact/contact.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "contact/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "contact/toc.html"
+        },
+        ".json": {
+          "relative_path": "contact/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "elements/array-node.md",
+      "output": {
+        ".html": {
+          "relative_path": "elements/array-node.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "elements/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "elements/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "elements/gp-node.md",
+      "output": {
+        ".html": {
+          "relative_path": "elements/gp-node.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "elements/graphier-contextual-menu.md",
+      "output": {
+        ".html": {
+          "relative_path": "elements/graphier-contextual-menu.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "elements/graphier-logger.md",
+      "output": {
+        ".html": {
+          "relative_path": "elements/graphier-logger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "elements/graphier-map.md",
+      "output": {
+        ".html": {
+          "relative_path": "elements/graphier-map.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "elements/graphier-node-toolbar.md",
+      "output": {
+        ".html": {
+          "relative_path": "elements/graphier-node-toolbar.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "elements/graphier-search-bar.md",
+      "output": {
+        ".html": {
+          "relative_path": "elements/graphier-search-bar.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "elements/graphier-search-window.md",
+      "output": {
+        ".html": {
+          "relative_path": "elements/graphier-search-window.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "elements/graphier-settings-editing.md",
+      "output": {
+        ".html": {
+          "relative_path": "elements/graphier-settings-editing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "elements/graphier-settings-performance.md",
+      "output": {
+        ".html": {
+          "relative_path": "elements/graphier-settings-performance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "elements/graphier-settings-search.md",
+      "output": {
+        ".html": {
+          "relative_path": "elements/graphier-settings-search.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "elements/graphier-settings.md",
+      "output": {
+        ".html": {
+          "relative_path": "elements/graphier-settings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "elements/graphier-toolbar.md",
+      "output": {
+        ".html": {
+          "relative_path": "elements/graphier-toolbar.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "elements/group.md",
+      "output": {
+        ".html": {
+          "relative_path": "elements/group.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "elements/input-field.md",
+      "output": {
+        ".html": {
+          "relative_path": "elements/input-field.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "elements/input-node.md",
+      "output": {
+        ".html": {
+          "relative_path": "elements/input-node.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "elements/node.md",
+      "output": {
+        ".html": {
+          "relative_path": "elements/node.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "elements/object-node.md",
+      "output": {
+        ".html": {
+          "relative_path": "elements/object-node.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "elements/selector-node.md",
+      "output": {
+        ".html": {
+          "relative_path": "elements/selector-node.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "elements/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "elements/toc.html"
+        },
+        ".json": {
+          "relative_path": "elements/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "elements/value-node.md",
+      "output": {
+        ".html": {
+          "relative_path": "elements/value-node.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "faq/faq.md",
+      "output": {
+        ".html": {
+          "relative_path": "faq/faq.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "faq/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "faq/toc.html"
+        },
+        ".json": {
+          "relative_path": "faq/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/32-32-gp.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/32-32-gp.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/creating-first-graph/step-1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/creating-first-graph/step-1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/creating-first-graph/step-10.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/creating-first-graph/step-10.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/creating-first-graph/step-2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/creating-first-graph/step-2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/creating-first-graph/step-3.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/creating-first-graph/step-3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/creating-first-graph/step-4.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/creating-first-graph/step-4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/creating-first-graph/step-5.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/creating-first-graph/step-5.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/creating-first-graph/step-6.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/creating-first-graph/step-6.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/creating-first-graph/step-7.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/creating-first-graph/step-7.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/creating-first-graph/step-8.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/creating-first-graph/step-8.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/creating-first-graph/step-9.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/creating-first-graph/step-9.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/creating-playerprefs-graph/step-1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/creating-playerprefs-graph/step-1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/creating-playerprefs-graph/step-10.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/creating-playerprefs-graph/step-10.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/creating-playerprefs-graph/step-2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/creating-playerprefs-graph/step-2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/creating-playerprefs-graph/step-3.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/creating-playerprefs-graph/step-3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/creating-playerprefs-graph/step-4.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/creating-playerprefs-graph/step-4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/creating-playerprefs-graph/step-5.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/creating-playerprefs-graph/step-5.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/creating-playerprefs-graph/step-6.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/creating-playerprefs-graph/step-6.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/creating-playerprefs-graph/step-7.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/creating-playerprefs-graph/step-7.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/creating-playerprefs-graph/step-8.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/creating-playerprefs-graph/step-8.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/creating-playerprefs-graph/step-9.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/creating-playerprefs-graph/step-9.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/data-editor/data-editor-default-inspector.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/data-editor/data-editor-default-inspector.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/data-editor/data-editor-empty.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/data-editor/data-editor-empty.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/data-editor/data-editor-filled.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/data-editor/data-editor-filled.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/data-editor/data-editor-location.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/data-editor/data-editor-location.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/data-editor/data-editor-ping.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/data-editor/data-editor-ping.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/array-node-empty.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/array-node-empty.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/array-node-filled.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/array-node-filled.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/editor-location.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/editor-location.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/editor-toolbar.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/editor-toolbar.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/example-graph-clear-bg.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/example-graph-clear-bg.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/example-graph-wide-2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/example-graph-wide-2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/example-graph-wide.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/example-graph-wide.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/example-graph.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/example-graph.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/first-graph-open.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/first-graph-open.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/graph-docked-alone.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/graph-docked-alone.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/graph-docked-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/graph-docked-settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/graph-docked.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/graph-docked.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/group-empty.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/group-empty.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/group-filled.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/group-filled.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/input-node-empty.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/input-node-empty.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/input-node-filled.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/input-node-filled.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/map-blank.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/map-blank.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/map-filled.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/map-filled.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/node-toolbar.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/node-toolbar.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/object-node-empty.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/object-node-empty.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/object-node-filled.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/object-node-filled.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/project-code-section.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/project-code-section.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/project-section-example.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/project-section-example.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/project-section-graphs.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/project-section-graphs.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/project-section.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/project-section.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/selector-node-empty.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/selector-node-empty.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/selector-node-filled-array.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/selector-node-filled-array.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/selector-node-filled-object.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/selector-node-filled-object.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/setting-editing.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/setting-editing.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/setting-performance.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/setting-performance.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/setting-search.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/setting-search.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/value-node-empty.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/value-node-empty.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/value-node-filled.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/value-node-filled.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elements/welcome-page.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elements/welcome-page.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/save-load-graph/step-1.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/save-load-graph/step-1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/save-load-graph/step-10.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/save-load-graph/step-10.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/save-load-graph/step-11.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/save-load-graph/step-11.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/save-load-graph/step-12.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/save-load-graph/step-12.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/save-load-graph/step-13.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/save-load-graph/step-13.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/save-load-graph/step-14.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/save-load-graph/step-14.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/save-load-graph/step-15.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/save-load-graph/step-15.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/save-load-graph/step-16.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/save-load-graph/step-16.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/save-load-graph/step-2.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/save-load-graph/step-2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/save-load-graph/step-3.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/save-load-graph/step-3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/save-load-graph/step-4.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/save-load-graph/step-4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/save-load-graph/step-5.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/save-load-graph/step-5.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/save-load-graph/step-6.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/save-load-graph/step-6.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/save-load-graph/step-7.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/save-load-graph/step-7.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/save-load-graph/step-8.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/save-load-graph/step-8.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/save-load-graph/step-9.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/save-load-graph/step-9.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/creating-first-graph.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/creating-first-graph.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/data-editor.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/data-editor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/first-look.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/first-look.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/playerprefs-example.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/playerprefs-example.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/save-load-graph.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/save-load-graph.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html"
+        },
+        ".json": {
+          "relative_path": "manual/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
